@@ -11,3 +11,19 @@
  *= require_self
  *= require_tree .
  */
+
+
+
+.post {
+  position: relative;
+  margin-bottom: 84px;
+}
+
+
+.post-date {
+  display: block;
+  margin: -10px 0px 10px;
+  color: rgb(204, 204, 204);
+}
+
+
