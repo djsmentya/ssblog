@@ -28,9 +28,18 @@
           %a.brand(href="/") Blog
           .container.nav-collapse
             %ul.nav
-              %li= link_to "Mange posts", "/path1"
+              %li= link_to "Mange posts", admin_posts_path
               %li= link_to "Link 2", "/path2"
               %li= link_to "Link 3", "/path3"
+            .pull-right
+              -unless user_signed_in?
+                %ul.nav
+                  %li= link_to 'Sign In',user_session_path, class: 'btn-link pull-right'
+              -else
+                %ul.nav
+                  %li= link_to 'Sign Out',destroy_user_session_path, class: 'btn-link pull-right'
+
+
 
     .container
 

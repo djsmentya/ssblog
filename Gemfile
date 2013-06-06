@@ -19,11 +19,12 @@ group :assets do
   gem "twitter-bootstrap-rails"
   gem 'uglifier', '>= 1.0.3'
   gem 'haml-rails'
+  gem 'redactor-rails'
 end
 
 gem 'jquery-rails'
 gem 'devise'
-
+gem 'cancan'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

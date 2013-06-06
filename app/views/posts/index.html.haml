@@ -5,6 +5,6 @@
       %h1= post.title
       %small=l post.created_at, :format => :full
     .lead
-      = post.description
+      =raw post.description
     =link_to 'Read More...', post_path(post), class:'pull-right'
   %hr

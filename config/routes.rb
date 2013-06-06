@@ -1,4 +1,10 @@
 Blog::Application.routes.draw do
+  mount RedactorRails::Engine => '/redactor_rails'
+
+  namespace :admin do
+    resources :posts
+  end
+
   devise_for :users
 
   resources :posts
