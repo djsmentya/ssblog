@@ -18,13 +18,13 @@ group :assets do
   gem 'therubyracer', :platforms => :ruby
   gem "twitter-bootstrap-rails"
   gem 'uglifier', '>= 1.0.3'
-  gem 'haml'
 end
 
 group :production do
     gem 'pg'
 end
 
+  gem 'haml'
 
 gem "carrierwave"
 gem "mini_magick"
