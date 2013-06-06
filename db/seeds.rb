@@ -8,6 +8,7 @@
 
 
 Role.create(:name => :admin)
+Role.create(:name => :moderator)
 Role.create(:name => :user)
 u = User.create( :email => 'admin@example.com', :password => 'password', :password_confirmation => 'password')
 u.roles.push Role.find_by_name :admin
