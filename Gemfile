@@ -23,7 +23,7 @@ group :assets do
 end
 
 group :production do
-    gem 'pg', '0.12.2'
+    gem 'pg'
 end
 
 

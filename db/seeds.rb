@@ -11,3 +11,5 @@ Role.create(:name => :admin)
 Role.create(:name => :user)
 u = User.create( :email => 'admin@example.com', :password => 'password', :password_confirmation => 'password')
 u.roles.push Role.find_by_name :admin
+u = User.create( :email => 'moderator@example.com', :password => 'password', :password_confirmation => 'password')
+u.roles.push Role.find_by_name :moderator
