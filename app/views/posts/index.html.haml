@@ -6,6 +6,9 @@
       %small=l post.created_at, :format => :full
     .lead
       =raw post.short_text
+    .lead
+      Tags:
+      = post.tag_list
     =link_to 'Read More...', post_path(post), class:'pull-right'
 
   %hr

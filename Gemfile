@@ -25,7 +25,7 @@ end
 
   gem "twitter-bootstrap-rails"
   gem 'haml'
-
+gem 'acts-as-taggable-on'
 gem "carrierwave"
 gem "mini_magick"
 gem 'redactor-rails'
