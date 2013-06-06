@@ -18,14 +18,14 @@ group :assets do
   gem "twitter-bootstrap-rails"
   gem 'uglifier', '>= 1.0.3'
   gem 'haml-rails'
-  gem 'redactor-rails'
-  gem 'will_paginate', '~> 3.0'
 end
 
 group :production do
     gem 'pg'
 end
 
+gem 'redactor-rails'
+gem 'will_paginate', '~> 3.0'
 
 gem 'jquery-rails'
 gem 'devise'
