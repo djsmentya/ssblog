@@ -146,6 +146,7 @@ DEPENDENCIES
   carrierwave
   coffee-rails (~> 3.2.1)
   devise
+  haml
   haml-rails
   jquery-rails
   mini_magick
