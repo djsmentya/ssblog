@@ -5,6 +5,8 @@
       %h1= post.title
       %small=l post.created_at, :format => :full
     .lead
-      =raw post.description
+      =raw post.short_text
     =link_to 'Read More...', post_path(post), class:'pull-right'
+
   %hr
+= will_paginate @posts

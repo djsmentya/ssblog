@@ -4,6 +4,10 @@
     .controls
       = f.text_field :title, :class => 'text_field'
   .control-group
+    = f.label :short_text, :class => 'control-label'
+    .controls
+      = f.text_area :short_text, :class => 'text_area redactor'
+  .control-group
     = f.label :description, :class => 'control-label'
     .controls
       = f.text_area :description, :class => 'text_area redactor'

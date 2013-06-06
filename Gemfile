@@ -4,10 +4,9 @@ gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3'
-
-
+group :development do
+  gem 'sqlite3'
+end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -20,7 +19,13 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   gem 'haml-rails'
   gem 'redactor-rails'
+  gem 'will_paginate', '~> 3.0'
 end
+
+group :production do
+    gem 'pg', '0.12.2'
+end
+
 
 gem 'jquery-rails'
 gem 'devise'

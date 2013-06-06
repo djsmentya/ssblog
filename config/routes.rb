@@ -3,6 +3,7 @@ Blog::Application.routes.draw do
 
   namespace :admin do
     resources :posts
+    resources :users
   end
 
   devise_for :users
