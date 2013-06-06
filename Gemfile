@@ -24,6 +24,9 @@ group :production do
     gem 'pg'
 end
 
+
+gem "carrierwave"
+gem "mini_magick"
 gem 'redactor-rails'
 gem 'will_paginate', '~> 3.0'
 
