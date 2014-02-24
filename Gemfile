@@ -23,6 +23,7 @@ group :production do
     gem 'pg'
 end
 
+  gem "galetahub-simple_captcha", :require => "simple_captcha"
   gem "twitter-bootstrap-rails"
   gem 'haml'
 gem 'acts-as-taggable-on'
