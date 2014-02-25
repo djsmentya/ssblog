@@ -5,4 +5,6 @@ en:
   time:
     formats:
       full: "%b %d, %Y"
-
+  simple_captcha:
+    placeholder: "Write simbols from picture"
+    label: "Please enter simbols from picture"
